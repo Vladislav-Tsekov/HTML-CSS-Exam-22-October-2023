@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.home-container{
+    width: 100%;
+    flex: auto;
+    background-image: url(../03.\ Business/background.jpg);
+    background-size:cover;
+    height: 393px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo-container{
+    width: 50px;
+    height: auto;
+    overflow: hidden;
+}
+
+.logo{
+    width: 100%;
+    height: auto;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px; 
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10px;
+}
+
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.home-text-about{
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    color:white;
+    margin-bottom: 0.5em;
+    font-size: 25px;
+}
+
+.home-text-description{
+    font-family: 'PT Sans', serif;
+    font-weight: 400;
+    color:white;
+    font-size: 11px;
+    width: 350px;
+}
+
+.text-container{
+    margin-left: 90px;
+    width: 530px;
+}
+
+.additional-info-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 80px 80px;
+    border-bottom: rgb(175, 173, 173) solid 1px;
+}
+
+.business-aims-article-title,
+.objectives-article-title{
+    font-family: 'PT Serif', serif;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding-bottom: 0.5em;
+}
+
+.business-aims-article-text,
+.objectives-article-text{
+    font-size: 15px;
+    padding-bottom: 2em;
+}
+
+.business-aims-container,
+.objectives-container{
+    font-family: 'PT Sans', serif;
+    width: 500px;
+}
+
+.additional-info-button{
+    font-family: 'PT Sans', serif;
+    font-weight: 700;
+    border: solid 2px #b0825c;
+    text-decoration: none;
+    color: #b0825c;
+    padding: 5px;
+    font-size:14px;
+}
+
+.additional-info-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 80px 80px;
+    border-bottom: rgb(175, 173, 173) solid 1px;
+}
+
+.sponsors-and-partners{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+margin: 0 200px;
+}
+
+.sponsors-article-title,
+.partners-article-title{
+    flex-direction: column;
+    font-family: 'PT Serif', serif;
+    color: #b0825c;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 30px;
+    padding-bottom: 0.5em;
+    padding-top: 1em;
+}
+
+.media-container{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.sponsor{
+    height: 100%;
+    width: auto;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: rgb(203, 194, 194);
+    border-radius: 60%; 
+    overflow: hidden;
+}
+
+.sponsors-article-text,
+.partners-article-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2em;
+    font-family: 'PT Sans', serif;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: #171720;
+}
+
+.link-title{
+    font-family: 'PT Serif', serif;
+    color: white;
+    padding: 1em 0;
+    font-size: 24px;
+}
+
+.link-items{
+    color:white;
+    font-family: 'PT Sans', serif;
+    text-transform: uppercase;
+    list-style: none;
+    color: #a4999b;
+}
+
+.list-item{
+    padding: 11px 0;
+}
+
+.mobile-container{
+    padding-left: 40px;
+}
+
+.footer{
+    border-top: solid 1px #a4999b;
+    font-family: 'PT Serif', serif;
+    color: #a4999b;
+    background-color: #171720;
+    padding: 15px 100px;
+}
